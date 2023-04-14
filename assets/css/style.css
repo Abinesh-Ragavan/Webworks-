@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,900;1,300;1,400;1,600;1,700;1,900&family=Nunito:ital,wght@0,500;1,700;1,500;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+/* hero styling starts */
+
+.hero {
+    /* background-color: aquamarine; */
+    position: relative;
+    top: 140px;
+
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.left {
+    padding: 4px;
+    /* background-color: beige; */
+    width: 480px;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.right {
+    padding: 4px;
+    /* background-color: antiquewhite; */
+    width: 480px;
+    height: 75vh;
+
+}
+
+.rightimg {
+    padding-left: 160px;
+}
+
+.left1 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.left1p {
+    margin-left: 4px;
+}
+
+.left2 {
+
+    font-size: 25px;
+    width: 70%;
+    /* background-color: brown; */
+    margin-bottom: 15px;
+}
+
+.left3 {
+    /* background-color: aqua; */
+    width: 80%;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.left4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.email {
+    height: 50px;
+    width: 240px;
+    margin-right: 10px;
+    padding-left: 20px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.button {
+    height: 52px;
+    background-color: rgb(0, 80, 252);
+    width: 150px;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(70, 129, 255);
+}
+
+@media only screen and (max-width: 768px) {
+
+    .right {
+        display: none;
+    }
+
+    .left2 {
+        width: 90%;
+    }
+
+    .left3 {
+        width: 100%;
+    }
+
+    .email {
+        width: 85%;
+
+    }
+
+    .hero {
+        justify-content: start;
+
+
+    }
+
+}
+
+
+@media only screen and (max-width: 480px) {
+    .hero {
+        margin-bottom: 20px;
+        top: 80px;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .left {
+        width: 90%;
+        height: 450px;
+        position: relative;
+        left: -10px;
+
+    }
+
+    .left1 {
+        text-align: center;
+        /* height: 50px;  */
+    }
+
+    .left2 {
+        width: 100%;
+        font-size: 15px;
+        text-align: left;
+        /* height: 110px; */
+    }
+
+    .left3 {
+        /* height: 140px; */
+        width: 100%;
+        text-align: left;
+        font-size: 18px;
+    }
+
+    .left4 {
+        flex-direction: column;
+
+
+    }
+
+    .button {
+        width: 97%;
+        height: 50px;
+
+    }
+
+    .email {
+        height: 50px;
+        width: 96%;
+        padding-left: 10px;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+}
+
+/* hero styling ends */
+
+
+
+
+
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1.7;
+    color: #6a6a6a;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    color: black;
+
+
+
+}
+
+
+
+a {
+    color: #323232;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 500;
+
+
+}
+
+a:hover {
+    color: #f50e5d;
+
+}
+
+.link::before {
+    content: "";
+    width: 10px;
+    height: 3px;
+    background-color: #f50e5d;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    transition: all 0.5s ease;
+
+
+}
+
+.link:hover::before {
+    width: 40px;
+}
+
+
+.jumpstart {
+    font-size: 62px;
+}
+
+.coinbase {
+    font-size: 20px;
+}
+
+section {
+    padding: 80px 0;
+
+}
+
+@media (max-width:600px) {
+    section {
+        padding: 60px 0;
+
+    }
+}
+
+
+
+
+
+
+
+
+/* section*/
+
+.section-title {
+
+    max-width: 600px;
+    margin: 0 auto 10px auto;
+}
+
+
+
+
+/*Serives Section */
+
+
+
+/*end of services Section*/
+
+/*finally footer*/
+
+footer ul {
+    list-style: none;
+
+
+}
+
+footer a {
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+.footer-top {
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+.footer-bottom {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 2);
+}
+
+
+/*//fotter*/
+/* latest nav_navbar added by hp*/
+nav {
+    font-family: Ubuntu;
+    font-weight: bolder;
+    font-size: 14px;
+    box-shadow: 10px 0px 1px;
+}
+
+.container-md {
+    max-width: 1204px;
+}
+
+.btn-primary {
+    background-color: rgb(0, 82, 255);
+    font-size: 14px;
+    padding: 10px 12px;
+}
+
+/*When no hamburger*/
+@media (min-width: 992px) {
+    .nav-link:hover {
+        text-decoration: underline rgb(0, 82, 255) 4px;
+        text-underline-offset: 28px;
+    }
+}
+
+/* When hamburger */
+@media (min-width: 576px) and (max-width: 992px) {
+    .collapse {
+        font-size: 16px;
+    }
+}
+
+/* Un-earthly small devices */
+@media (max-width: 575px) {
+    .collapse {
+        font-size: 16px;
+    }
+
+    .collapse a.d-lg-none {
+        width: 90%;
+    }
+}
+
+/*nav_navbar*/
+
+
+/*  pure js testimonal part */
+
+.c {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    height: 220px;
+
+}
+
+.rupees,
+.supportcount,
+.userscount {
+    align-items: center;
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 10px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+@media (max-width: 767px) {
+
+    .c {
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+
+    }
+
+    .ic {
+        padding-bottom: 10px;
+        padding-top: 10px;
+
+    }
+
+
+
+}
+
+
+@media(max-width:390px) {
+    .jumpstart {
+
+        font-size: 34px;
+        text-align: center;
+
+    }
+
+    .coinbase {
+        display: inline-block;
+        padding-top: 5px;
+        font-size: 16px;
+        text-align: center;
+
+    }
+
+    .coinbaseimage {
+        height: 50px;
+
+    }
+
+}
+
+/*  end of  pure js testimonal part */
