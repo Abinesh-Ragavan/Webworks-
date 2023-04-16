@@ -34,16 +34,14 @@ a {
 
 }
 
-a:hover {
-    color: #f50e5d;
 
-}
+
 
 .link::before {
     content: "";
     width: 10px;
     height: 3px;
-    background-color: #f50e5d;
+
     display: inline-block;
     vertical-align: middle;
     margin-right: 10px;
