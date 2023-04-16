@@ -18,89 +18,71 @@
 </head>
 
 <body>
-  <!-- navbar-->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white py-2">
-    <div class="container-md">
-      <a class="navbar-brand d-flex px-2" href="#">
-        <img src="./assets/images/logo.svg" height="20px" />
-      </a>
 
-      <div class="d-flex flex-row-reverse">
-        <button class="navbar-toggler border-0 shadow-none " type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon text-dark"></span>
-        </button>
-        <a class="btn btn-primary d-block d-lg-none fw-bold mx-3 py-2" href="#">Get started</a>
+
+  <nav>
+    <div class="nav-container">
+      <div class="navbar-left">
+        <img class="brand-img" src="./assets/images/logo.svg" alt="" height="20px" />
       </div>
 
-      <div class="collapse navbar-collapse mt-3 mt-lg-0" id="navbarNav">
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item">
-            <a class="nav-link text-dark  p-3" href="#">Explore</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark  p-3" href="#">Web3</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark  p-3" href="#">Learn</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark  p-3" href="#">Individuals</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark  p-3" href="#">Businesses</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark  p-3" href="#">Developers</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark  p-3" href="#">Company</a>
-          </li>
-          <li>
-            <a class="btn btn-primary  d-lg-none m-3 py-3" style="min-width:295px" href="#">Get started</a>
-          </li>
+      <div class="navbar-center dropup" id="navbar-center">
+        <a href="#">Explore</a>
+        <a href="#">Web3</a>
+        <a href="#">Learn</a>
+        <a href="#">Individuals</a>
+        <a href="#">Businesses</a>
+        <a href="#">Developers</a>
+        <a href="#">Company</a>
 
-        </ul>
-
-        <a class="text-dark d-none d-lg-block fw-bold p-3" href="#">Sign in</a>
-        <a class="btn btn-primary d-none d-lg-block lh-1 fw-bold me-3" href="#">Get started</a>
-
+        <button class="get-started">Get started</button>
+        <button class="sign-in">Sign in</button>
       </div>
 
+      <div class="navbar-right">
+        <a class="nav-sign-in" href="#">Sign in</a>
+        <button>Get started</button>
+        <div onclick="toggleDropdown()" id="menu-bar">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+        </div>
+
+      </div>
     </div>
-
-
   </nav>
 
   <!--hero-->
+  <section>
 
-  <div class="hero">
-    <div class="left">
+    <div class="hero">
+      <div class="left">
 
-      <div class="left1">
-        <div><img src="./assets/images/dollar.svg" alt="#"></div>
-        <div class="left1p">Jump start your portfolio</div>
-        <div></div>
+        <div class="left1">
+          <div><img src="./assets/images/dollar.svg" alt="#"></div>
+          <div class="left1p">Jump start your portfolio</div>
+          <div><img src="./assets/images/arrowhero.svg" alt=""></div>
+        </div>
+
+        <div class="left2">
+          <h1>Jump start your Crypto portfolio</h1>
+        </div>
+
+        <div class="left3">
+          Coinbase is the easiest place to buy and sell cryptocurrency. Sign up and get started today.
+        </div>
+
+        <div class="left4">
+          <input class="email" type="email" placeholder="Email address">
+          <button class="button">Get Started</button>
+        </div>
       </div>
-
-      <div class="left2">
-        <h1>Jump start your Crypto portfolio</h1>
-      </div>
-
-      <div class="left3">
-        Coinbase is the easiest place to buy and sell cryptocurrency. Sign up and get started today.
-      </div>
-
-      <div class="left4">
-        <input class="email" type="email" placeholder="Email address">
-        <button class="button">Get Started</button>
+      <div class="right">
+        <img class="rightimg" src="./assets/images/heromobile.svg" alt="#">
       </div>
     </div>
-    <div class="right">
-      <img class="rightimg" src="./assets/images/heromobile.svg" alt="#">
-    </div>
-  </div>
 
+  </section>
 
 
   <!--// hero -->
@@ -266,13 +248,7 @@
           <p class="mb-0 text-dark">© 2023 Coinbase</p>
 
         </div>
-        <!-- <div class="col-auto ">
-          <p class="mb-0 text-dark">Designed By <a style="font-size:30px;"
-              href="https://www.linkedin.com/in/abinesh-ragavan-b0a2ab22a/" class="text-dark" target="_blank">TECH
-              -E</a>
-          </p>
 
-        </div> -->
 
 
       </div>
