@@ -74,8 +74,9 @@ nav {
     position: fixed;
     width: 100%;
     background-color: white;
-    z-index: 2;
+   
     box-shadow: 10px 0px 1px;
+    z-index: 25;
 
 }
 
