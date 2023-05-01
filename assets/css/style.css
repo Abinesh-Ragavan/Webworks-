@@ -497,9 +497,11 @@ nav a:hover {
 .userscount {
     align-items: center;
     text-align: center;
-    font-size: 26px;
-    margin-bottom: 10px;
+    font-size: 28px;
     font-family: 'Orbitron', sans-serif;
+}
+.quaterly,.countriessupport,.verifiedusers{
+    font-size: 16px;
 }
 
 
@@ -509,9 +511,8 @@ nav a:hover {
         display: flex;
         flex-direction: column;
         height: 300px;
-
     }
-
+    
     .ic {
         padding-bottom: 10px;
         padding-top: 10px;
