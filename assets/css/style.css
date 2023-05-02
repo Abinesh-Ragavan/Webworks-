@@ -243,32 +243,12 @@ nav a:hover {
 /*End: NAVBAR */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* hero styling starts */
 
 .hero {
     /* background-color: aquamarine; */
     position: relative;
-    top: 40px;
-
+    top: 60px;
     width: 100vw;
     height: 90vh;
     display: flex;
