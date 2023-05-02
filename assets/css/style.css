@@ -52,55 +52,21 @@ section {
     }
 }
 
+
 /* NAVBAR */
 
 nav {
     position: fixed;
     width: 100%;
     background-color: white;
-
-    box-shadow: 10px 0px 1px;
-    z-index: 25;
-
+    z-index: 4;
 }
 
 nav * {
     font-family: Ubuntu;
     font-weight: 500;
     font-size: 14px;
-}
-
-.nav-container {
-    max-width: 1180px;
-    padding: 0px 20px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 66px;
-}
-
-.navbar-center {
-    flex: 1;
-    text-align: center;
-}
-
-.navbar-right {
-    padding: 0px 16px;
-}
-
-.navbar-center a {
-    margin: 0px 18px;
-}
-
-.navbar-right button {
-    color: white;
-    background-color: blue;
-    border-radius: 4px;
-    padding: 10px 12px;
-    outline: none;
-    margin-left: 16px;
-    border: none;
+    line-height: 16px;
 }
 
 nav a {
@@ -108,9 +74,55 @@ nav a {
     text-decoration: none;
 }
 
-nav a:hover {
+.nav-container {
+    max-width: 1220px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 66px;
+    padding: 0px 20px;
+}
+
+.navbar-center {
+    flex: 1;
+    text-align: center;
+    min-width: 680px;
+}
+
+.navbar-center a {
+    margin: 0px 18px;
+}
+
+.navbar-center a:hover {
     text-decoration: underline rgb(0, 82, 255) 5px;
     text-underline-offset: 25px;
+}
+
+.nav-getstarted {
+    margin: 0px;
+    border-radius: 4px;
+    font-weight: 500;
+    color: white;
+    padding: 10px 12px;
+    font-size: 14px;
+    line-height: 14px;
+    border: 1px solid rgb(0, 82, 255);
+    background-color: rgb(0, 82, 255);
+    margin-right: 16px;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-sign-in {
+    margin: 0px 16px;
+}
+
+.navbar-left {
+    margin-right: 35px;
 }
 
 .navbar-center button,
@@ -118,17 +130,17 @@ nav a:hover {
     display: none;
 }
 
-
 @media (max-width: 1050px) {
 
     /* navbar hamburger */
     #menu-bar {
         display: inline-block;
-        padding-top: 12px;
-        padding-right: 15px;
-        padding-left: 30px;
+        margin-top: 12px;
         width: 20px;
         border-color: white;
+        margin-left: 30px;
+        margin-right: 20px;
+        height: 20px;
     }
 
     .bar {
@@ -164,83 +176,103 @@ nav a:hover {
 
     /* endof navbar hamburger */
 
-    .navbar-right .nav-sign-in,
-    .dropup {
+    .nav-sign-in {
         display: none;
     }
 
-    nav {
+    .navbar-center {
+        min-width: initial;
+    }
+
+    .navbar-center a,
+    .navbar-center button,
+    .navbar-center {
+        display: block;
+    }
+
+    .nav-container {
         height: 60px;
+        padding: 0px 20px;
+    }
+
+    .navbar-left {
+        margin-right: 16px;
+    }
+
+    .navbar-center {
+        position: fixed;
+        top: 60px;
+        left: 0px;
+        overflow: hidden;
+        background-color: white;
+        width: 100%;
+        transition: height 0.2s ease-out;
+    }
+
+    .test {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        z-index: 10000;
     }
 
     .navbar-center a {
-        display: block;
         text-align: left;
-        margin: 28px 24px;
+        padding: 20px 5px;
         font-size: 16px;
+        line-height: 18px;
+    }
+
+    .navbar-center a:hover {
+        text-decoration: none;
+        color: black;
     }
 
     .navbar-center button {
         font-size: 16px;
-        display: block;
-        margin: 12px 23px;
+        margin: 8px 18px;
         padding: 20px;
         min-width: 300px;
         border-radius: 5px;
+        flex-wrap: nowrap;
     }
 
-    .get-started {
+    .dropdown-get-started {
         color: white;
         border: none;
-        background-color: blue;
+        background-color: rgb(0, 82, 255);
     }
 
-    .sign-in {
-        color: blue;
+    .dropdown-sign-in {
+        background-color: white;
+        color: rgb(0, 82, 255);
         border: solid;
         border-width: 2px;
-        border-color: blue;
+        border-color: rgb(0, 82, 255);
     }
 
     .dropdown {
-        display: block;
-        position: fixed;
-        top: 60px;
-        left: 0px;
-        background-color: white;
-        width: 100%;
-        padding-bottom: 20px;
+        height: calc(100vh - 60px);
+        overflow-y: auto;
     }
 
-    .navbar-right button {
-        border: none;
+    .dropup {
+        height: 0px;
+        padding: 0px;
     }
 }
 
 @media(max-width:600px) {
     .navbar-center button {
-        width: 90%;
+        min-width: initial;
+        width: 85%;
     }
 }
-
-@media(max-width:360px) {
-    #menu-bar {
-        margin-left: -8px;
-    }
-
-    .bar {
-        margin-left: 30px;
-    }
-}
-
-/* 
-0-600px     -> hanburger and wide buttons
-660-1050    -> hamburger and short buttons
-1050-inf    -> no hamburger
-*/
-
 
 /*End: NAVBAR */
+
+
 
 
 /* hero styling starts */
