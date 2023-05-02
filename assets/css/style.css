@@ -34,10 +34,13 @@ a {
 
 }
 
+.link{
+    line-height: 2;
+    color: rgba(255, 255, 255, 0.6) ;
+}
 
 
-
-.link::before {
+/* .link::before {
     content: "";
     width: 10px;
     height: 3px;
@@ -52,7 +55,7 @@ a {
 
 .link:hover::before {
     width: 40px;
-}
+} */
 
 
 
@@ -575,8 +578,8 @@ footer ul {
 
 }
 
-footer a {
-    color: rgba(255, 255, 255, 0.6);
+footer li a {
+    color: rgb( 91,97,110 ) !important;
 
 }
 
@@ -590,6 +593,12 @@ footer a {
     padding-bottom: 30px;
     border-top: 1px solid rgba(255, 255, 255, 2);
 }
-
+.selectpicker{
+    background-color:#f5f3f3;
+}
+.selectpicker:hover{
+        cursor: pointer;
+        border-color:rgb(0, 82, 255,1);
+}
 
 /*//fotter*/

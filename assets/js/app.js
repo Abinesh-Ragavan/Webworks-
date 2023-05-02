@@ -12,3 +12,4 @@ function showSlides() {
     slides[slideIndex - 1].style.display = "flex";
     setTimeout(showSlides, 2500);
 }
+//footer
