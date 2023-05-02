@@ -66,12 +66,17 @@ nav * {
     font-family: Ubuntu;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 14px;
 }
 
 nav a {
     color: black;
     text-decoration: none;
+}
+
+nav hr {
+    height: 1px;
+    margin: 0px;
 }
 
 .nav-container {
@@ -93,6 +98,7 @@ nav a {
 .navbar-center a {
     margin: 0px 18px;
     font-family: Roboto, sans-serif;
+    color: black;
 }
 
 .navbar-center a:hover {
@@ -101,7 +107,6 @@ nav a {
 }
 
 .nav-getstarted {
-    margin: 0px;
     border-radius: 4px;
     font-weight: 500;
     color: white;
@@ -111,10 +116,6 @@ nav a {
     border: 1px solid rgb(0, 82, 255);
     background-color: rgb(0, 82, 255);
     margin-right: 16px;
-}
-
-.dropdown-sign-in {
-    font-family: Roboto, sans-serif;
 }
 
 .navbar-right {
@@ -144,7 +145,6 @@ nav a {
         width: 20px;
         border-color: white;
         margin-left: 30px;
-        margin-right: 20px;
         height: 20px;
     }
 
@@ -197,7 +197,6 @@ nav a {
 
     .nav-container {
         height: 60px;
-        padding: 0px 20px;
     }
 
     .navbar-left {
@@ -214,14 +213,6 @@ nav a {
         transition: height 0.2s ease-out;
     }
 
-    .test {
-        position: relative;
-        width: 100px;
-        height: 100px;
-        background-color: red;
-        z-index: 10000;
-    }
-
     .navbar-center a {
         text-align: left;
         padding: 20px 5px;
@@ -231,7 +222,6 @@ nav a {
 
     .navbar-center a:hover {
         text-decoration: none;
-        color: black;
     }
 
     .navbar-center button {
@@ -276,6 +266,7 @@ nav a {
 }
 
 /*End: NAVBAR */
+
 
 
 
