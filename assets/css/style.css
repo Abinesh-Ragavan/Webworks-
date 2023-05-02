@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 body {
-    font-family: "poppins", sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.7;
     color: #6a6a6a;
     padding: 0px;
@@ -63,7 +63,7 @@ nav {
 }
 
 nav * {
-    font-family: Ubuntu;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 14px;
@@ -97,7 +97,8 @@ nav hr {
 
 .navbar-center a {
     margin: 0px 18px;
-    font-family: Roboto, sans-serif;
+
+
     color: black;
 }
 
@@ -237,6 +238,7 @@ nav hr {
         color: white;
         border: none;
         background-color: rgb(0, 82, 255);
+
     }
 
     .dropdown-sign-in {
@@ -245,6 +247,7 @@ nav hr {
         border: solid;
         border-width: 2px;
         border-color: rgb(0, 82, 255);
+
     }
 
     .dropdown {
@@ -274,7 +277,7 @@ nav hr {
 /* hero styling starts */
 
 .hero {
-    /* background-color: aquamarine; */
+
     position: relative;
     top: 60px;
     width: 100vw;
@@ -287,7 +290,7 @@ nav hr {
 
 .left {
     padding: 4px;
-    /* background-color: beige; */
+
     width: 520px;
 
     display: flex;
@@ -297,7 +300,6 @@ nav hr {
 
 .right {
 
-    /* background-color: antiquewhite; */
     width: 30vw;
     height: 73vh;
     display: flex;
@@ -540,7 +542,7 @@ nav hr {
     align-items: center;
     text-align: center;
     font-size: 28px;
-    font-family: 'Orbitron', sans-serif;
+
 }
 
 .quaterly,
@@ -629,7 +631,6 @@ footer a {
     border: 1px solid rgba(26, 17, 16, 1);
 
 }
-
 
 
 /*//fotter*/
