@@ -447,7 +447,7 @@ nav hr {
     .hero {
         margin-bottom: 20px;
         top: 20px;
-
+        height: 70vh;
     }
 
     .right {
@@ -617,18 +617,20 @@ footer a {
 }
 
 .footer-top {
-    padding-top: 120px;
+    padding-top: 80px;
     padding-bottom: 80px;
+    padding-left: 40px;
+    
 }
 
 
 
 #langs {
     margin-bottom: 20px;
-    padding: 10px 40px 10px 10px;
+    padding: 7px 80px 7px 10px;
 
-    border-radius: 10px;
-    border: 1px solid rgba(26, 17, 16, 1);
+    border-radius: 5px;
+    border: 1px solid rgb(233, 223, 222);
 
 }
 
