@@ -281,7 +281,7 @@ nav a:hover {
 /* hero styling starts */
 
 
- .hero {
+.hero {
 
     position: relative;
     top: 60px;
@@ -418,7 +418,7 @@ nav a:hover {
 
 @media only screen and (max-width: 830px) and (min-width:480px) {
     .hero{
-        height: 50vh;
+        height: 60vh;
     }
     .right {
         display: none;
@@ -516,8 +516,7 @@ nav a:hover {
         margin: auto;
         margin-bottom: 10px;
     }
-}  
-    
+}
     
  
    
