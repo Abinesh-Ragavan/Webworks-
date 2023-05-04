@@ -145,7 +145,7 @@ nav hr {
         margin-top: 12px;
         width: 20px;
         border-color: white;
-        margin-left: 30px;
+        margin-left: 5px;
         height: 20px;
     }
 
@@ -283,7 +283,7 @@ nav hr {
     position: relative;
     top: 60px;
     width: 100vw;
-    height: 90vh;
+    height: 600px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -304,7 +304,7 @@ nav hr {
 .right {
 
     width: 30vw;
-    height: 73vh;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -515,6 +515,7 @@ nav hr {
         margin-bottom: 10px;
     }
 }
+
 
 /* hero styling ends */
 
